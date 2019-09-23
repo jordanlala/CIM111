@@ -1,0 +1,21 @@
+html{
+  background-color: black;
+}
+
+
+h1 {
+  background-color: black;
+  font-size: 40px;
+  color: goldenrod;
+  font-weight: 400;
+}
+
+p {
+  font-size: 150%;
+  color: yellow;
+  background-color: black;
+  font-weight: bold;
+}
+strong, b {
+
+}
