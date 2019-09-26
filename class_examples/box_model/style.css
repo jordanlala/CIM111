@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  font-size: 21px;
+  line-height: 1.7;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: pink;
+  padding-top: 20%;
+  margin: 0;
+}
+
+main {
+  background-color: yellow;
+  width: 90vw;
+  height: 50vh;
+  padding-top: 20px;
+}
+
+article.my_box, .My_box {
+width: 100vw;
+height: 100vh;
+text-align: center;
+}
+
+h1 {
+  background-color: #f9423a;
+  width: 20vw;
+  height: 25vh;
+  margin: auto;
+  border: 10px solid #bada55;
+  border-radius: 30px;
+  text-align: inherit;
+}
