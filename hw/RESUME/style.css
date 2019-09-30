@@ -40,3 +40,9 @@ a.cim{
 a.cim:hover {
   background-color: red;
 }
+
+
+li{
+  color: blue;
+  font-size: 20px;
+}
