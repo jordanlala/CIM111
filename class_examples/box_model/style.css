@@ -35,6 +35,10 @@ h1 {
   height: 25vh;
   margin: auto;
   border: 10px solid #bada55;
-  border-radius: 30px;
-  text-align: inherit;
+  border-radius: 300px;
+  text-align: justify;
+}
+
+p{
+  padding: 20px;
 }

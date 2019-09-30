@@ -1,0 +1,10 @@
+body{
+  backround-color: goldenrod;
+}
+
+@media only scren and (min-width:800px) {
+
+  body {
+    margin: 1% 2%;
+  }
+}
