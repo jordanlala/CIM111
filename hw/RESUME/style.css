@@ -22,13 +22,19 @@ html {
   font-family:  'Mansalva',cursive;
 }
 
+body{
+  background-color: #B8D9EB
+}
 h1 {
+  text-align: center;
+  color: orange;
+  background-color: grey;
   font-size: 60px;
 color: blue;
 }
 
 p{
-  color: red;
+  color: black;
   max-width: 600px;
 
 }
@@ -45,4 +51,34 @@ a.cim:hover {
 li{
   color: blue;
   font-size: 20px;
+}
+
+.myself {
+  color: red;
+  font-size: 30px;
+}
+
+.paragraph{
+  font-size: 23px;
+}
+
+#hardworking{
+  color: blue;
+  font-size: 21px;
+}
+#leader{
+  color: red;
+  font-size: 21;
+}
+#accountable{
+  color: black;
+  font-size: 21px;
+}
+#timemanagment{
+  color: green;
+  font-size: 21px;
+}
+#adaptable{
+  color: purple;
+  font-size: 21px;
 }
