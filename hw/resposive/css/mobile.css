@@ -7,4 +7,12 @@
   .paragraph{
     margin-right: 60px;
   }
+
+  .grid-container2
+{
+  margin-left: 60px;
+  font-size: 12px;
+  grid-column-gap: 15px;
+  border-width: 4px;
+}
 }
