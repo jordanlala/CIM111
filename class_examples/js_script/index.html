@@ -2,22 +2,36 @@
 <html>
 <head>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" charset="utf-8"></script>
+
+  </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
- $("button").click(function(){
-   $("p").hide();
- });
-});
 
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 
-</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 </head>
 <body>
-<img id="brews" src="brewsss.jpg" alt="brew">
-<img id="beer" src="https://cdn.torontolife.com/wp-content/uploads/2018/07/toronto-best-beer-breweries-opener-1200x628-1533134171.jpg" alt="beer">
-<img id="beer2" src="https://images.squarespace-cdn.com/content/v1/5856bc666a49634cd55b0ba9/1555516944058-J7VTN1YOMJN5CQFFY9XN/ke17ZwdGBToddI8pDm48kNR4h5KMHygq0Qj6xtX05pcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2JTYrYl0ZyrXwLI1Xe4njMrEr2ibkUqF2NMtGZX5lCMqbhuOb0MAcXaQ6whlEkpec/blood-brothers-craft-beer-toronto.jpg" alt="beer2">
-<img id="beer3" src="https://dynamicmedia.zuza.com/zz/m/original_/c/3/c3c0157a-d5b7-414c-b4d7-9d41cfa682be/Left-Field_3_Super_Portrait.jpeg" alt="beer3">
+
+  <!-- <a data-fancybox="gallery" href="big_1.jpg"><img src="small_1.jpg"></a> -->
+<a data-fancybox="galery" href="brewsss.jpg"><img id="brews" src="brewsss.jpg" alt="brew">
+</a>
+
+<a data-fancybox="gallery" href="https://cdn.torontolife.com/wp-content/uploads/2018/07/toronto-best-beer-breweries-opener-1200x628-1533134171.jpg"><img id="beer" src="https://cdn.torontolife.com/wp-content/uploads/2018/07/toronto-best-beer-breweries-opener-1200x628-1533134171.jpg" alt="beer"></a>
+
+
+<a data-fancybox="gallery" href="https://images.squarespace-cdn.com/content/v1/5856bc666a49634cd55b0ba9/1555516944058-J7VTN1YOMJN5CQFFY9XN/ke17ZwdGBToddI8pDm48kNR4h5KMHygq0Qj6xtX05pcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2JTYrYl0ZyrXwLI1Xe4njMrEr2ibkUqF2NMtGZX5lCMqbhuOb0MAcXaQ6whlEkpec/blood-brothers-craft-beer-toronto.jpg"><img id="beer2" src="https://images.squarespace-cdn.com/content/v1/5856bc666a49634cd55b0ba9/1555516944058-J7VTN1YOMJN5CQFFY9XN/ke17ZwdGBToddI8pDm48kNR4h5KMHygq0Qj6xtX05pcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2JTYrYl0ZyrXwLI1Xe4njMrEr2ibkUqF2NMtGZX5lCMqbhuOb0MAcXaQ6whlEkpec/blood-brothers-craft-beer-toronto.jpg" alt="beer2"></a>
+
+<a data-fancybox="gallery" href="https://dynamicmedia.zuza.com/zz/m/original_/c/3/c3c0157a-d5b7-414c-b4d7-9d41cfa682be/Left-Field_3_Super_Portrait.jpeg"><img id="beer3" src="https://dynamicmedia.zuza.com/zz/m/original_/c/3/c3c0157a-d5b7-414c-b4d7-9d41cfa682be/Left-Field_3_Super_Portrait.jpeg" alt="beer3"></a>
+
+
+
+
+
+
+
 <h1>The Top Beer Bars in Toronto</h1>
 <p> Are you a brew lover? Well If so, you need to visit Toronto. The breweries are unmatched and not only places to try but, also places to meet new friends & expand your brew buds. <p>
 
@@ -25,8 +39,17 @@ $(document).ready(function(){
 <p>Beer and Trivia pub located in Cabbagetown,Toronto.</p>
 <h2>Otto's Bierhalle</h2>
 <p>If you want good lighting, and hanging vines with the heartiness of solid german food and beer.</p>
-<h2>BeerBistro</h2>
+
+<section class="grid-container"> </section>
+
+<section> <h2>BeerBistro</h2> </section>
 <p>A classy Bistro where it would be acceptable to bring your parents or boss.</p>
+
+<section>
+<a data-fancybox="gallery" href="https://farm4.staticflickr.com/3717/10476102643_d7cb718e04.jpg"><img id="leaf" src="https://farm4.staticflickr.com/3717/10476102643_d7cb718e04.jpg" alt="leaf"></a>
+</section>
+</section>
+
 <h2>Tallboys-Craft Beer House</h2>
 <p>Holds the title for carrying the most cans in the city, with a strong focus on Ontario craft.</p>
 <h2>Tequila Bookworm</h2>
@@ -35,7 +58,13 @@ $(document).ready(function(){
 <p>Beer drinkers across Toronto gasp when you bring this bar up. </p>
 <h2>Bar Hop Bar</h2>
 <p>The ideal spot to meet friends after work or before the profesional competitions.</p>
+<h2> Top 5 Best rated beers:<h2>
 
+<li>Rochefort Trappistes 10</li>
+<li>Westvleteren 12</li>
+<li>Founders KBS</li>
+<li>Founders Barrel Aged CBS</li>
+<li>Toppling Goliath Kentucky Brunch</li>
 
 <button>Click me to hide paragraphs</button>
 

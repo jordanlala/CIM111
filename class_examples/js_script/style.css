@@ -15,5 +15,20 @@
   height: 300px;
 }
 body{
-  background-image: linear-gradient(90deg, lightblue, grey);
+  background-image: linear-gradient(90deg, lightblue, yellow);
+}
+
+h1{
+  color: white;
+  font: 45px Helvetica, Sans-serif;
+  background: #a2bcf7;
+}
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 30px;
+  grid-column-gap:30px;
+  align-items: baseline;
 }
