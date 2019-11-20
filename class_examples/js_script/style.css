@@ -19,7 +19,7 @@ body{
 }
 
 h1{
-  color: white;
+  color: red;
   font: 45px Helvetica, Sans-serif;
   background: #a2bcf7;
 }
@@ -31,4 +31,10 @@ h1{
   padding: 30px;
   grid-column-gap:30px;
   align-items: baseline;
+}
+
+#toronto{
+  color: red;
+  
+
 }
