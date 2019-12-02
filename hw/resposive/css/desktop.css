@@ -8,8 +8,8 @@ body{
 }
 h1 {
   text-align: center;
-  color:blue;
-  background-color: grey;
+  color: blue;
+  background-color: black;
   font-size: 60px;
 color: blue;
 }
@@ -44,11 +44,11 @@ li{
 }
 
 #hardworking{
-  color: blue;
+  color: black;
   font-size: 21px;
 }
 #leader{
-  color: red;
+  color: black;
   font-size: 21;
 }
 #accountable{
@@ -56,11 +56,11 @@ li{
   font-size: 21px;
 }
 #timemanagment{
-  color: green;
+  color: black;
   font-size: 21px;
 }
 #adaptable{
-  color: purple;
+  color: black;
   font-size: 21px;
 }
 
@@ -98,5 +98,5 @@ li{
   align-items: center;
 }
 .skills{
-  color: red;
+  color: black;
 }
