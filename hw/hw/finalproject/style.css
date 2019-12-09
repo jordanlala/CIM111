@@ -14,11 +14,10 @@ main {
 }
 h1 {
   text-align: center;
-  color: orange;
   background-color: black;
   font-size: 60px;
-color: Black;
-background-image: linear-gradient(90deg, white, salmon);
+  color: black;
+  background-image: linear-gradient(90deg, white, salmon);
 }
 
 p{
@@ -70,6 +69,8 @@ header {
     "pic1 pic2 pic3"
     "title title title";
   grid-column-gap: 20px;
+  max-width: 900px !important;
+  min-width: 300px !important;
 }
 
 header img {
