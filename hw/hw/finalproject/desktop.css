@@ -1,0 +1,102 @@
+html {
+  font-size: 20px;
+  font-family:  'Mansalva',cursive;
+}
+
+body{
+  background-color:yellow;
+}
+h1 {
+  text-align: center;
+  color: blue;
+  background-color: black;
+  font-size: 60px;
+color: blue;
+}
+
+p{
+  color: black;
+  max-width: 600px;
+
+}
+
+a.cim{
+  color: black;
+  text-decoration: none;
+}
+a.cim:hover {
+  background-color: red;
+}
+
+
+li{
+  color: blue;
+  font-size: 20px;
+}
+
+.myself {
+  color: red;
+  font-size: 30px;
+}
+
+.paragraph{
+  font-size: 23px;
+}
+
+#hardworking{
+  color: black;
+  font-size: 21px;
+}
+#leader{
+  color: black;
+  font-size: 21;
+}
+#accountable{
+  color: black;
+  font-size: 21px;
+}
+#timemanagment{
+  color: black;
+  font-size: 21px;
+}
+#adaptable{
+  color: black;
+  font-size: 21px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap:20px;
+  padding: 30px;
+  align-items: center;
+
+
+
+}
+.grid-container1{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap:20px;
+  padding: 30px;
+  align-items: center;
+}
+
+.grid-container2{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap:20px;
+  padding: 30px;
+  align-items: center;
+}
+
+.grid-container3{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap:20px;
+  padding: 30px;
+  align-items: center;
+}
+.skills{
+  color: black;
+}

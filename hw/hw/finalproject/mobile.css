@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+  body {
+  background-color: orange;
+    font-size: 12px;
+    margin-right: 30px;
+  }
+  .paragraph{
+    margin-right: 45px;
+  }
+
+  .grid-container2
+{
+  margin-left: 60px;
+  font-size: 12px;
+  grid-column-gap: 15px;
+  border-width: 4px;
+}
+}
