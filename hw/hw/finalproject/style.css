@@ -1,18 +1,24 @@
 
 html {
   font-size: 20px;
-  font-family:  'Mansalva',cursive;
+  font-family:  'Arial',cursive;
 }
 
 body{
-  background-color: #E9967A
+
+  margin: 0 4%;
+}
+main {
+  background-color: #E9967A;
+  padding: 2%;
 }
 h1 {
   text-align: center;
   color: orange;
   background-color: black;
   font-size: 60px;
-color: blue;
+color: Black;
+background-image: linear-gradient(90deg, white, salmon);
 }
 
 p{
@@ -33,6 +39,7 @@ a.cim:hover {
 li{
   color: blue;
   font-size: 20px;
+  font-weight: 900;
 }
 
 .myself {
@@ -44,23 +51,50 @@ li{
   font-size: 23px;
 }
 
-#hardworking{
-  color: blue;
-  font-size: 21px;
+
+
+#procon {
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
 }
-#leader{
-  color: red;
-  font-size: 21;
+
+#procon th {
+  font-weight: 900;
 }
-#accountable{
-  color: black;
-  font-size: 21px;
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "pic1 pic2 pic3"
+    "title title title";
+  grid-column-gap: 20px;
 }
-#timemanagment{
-  color: green;
-  font-size: 21px;
+
+header img {
+  height: 200px;
+  margin: 0 auto;
 }
-#adaptable{
-  color: purple;
-  font-size: 21px;
+#jordan {
+  grid-area: pic2;
+}
+#alarm {
+  grid-area: pic3;
+}
+
+#teamworks {
+  grid-area: pic1;
+}
+
+#title {
+  grid-area: title;
+}
+
+#bottom-pic img{
+  width: 100%;
+}
+
+#bottom-pic {
+  margin-top: 100px;
 }
