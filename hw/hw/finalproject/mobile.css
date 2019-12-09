@@ -8,10 +8,16 @@
   #teamworks {
     display: none;
   }
+  #jordan img {
+    width: 100%;
+    height: auto;
+  }
   header {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "pic2" "title";
+    justify-content: center;
+    align-items: center;
   }
   /* .paragraph{
     margin-right: 45px;
